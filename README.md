@@ -36,7 +36,7 @@ const titleDiv = divBuilder(
 ```
 
 ### What is a React element?
-An element is a JS object that describes a piece of UI. The act of composing components instructs React to produce a tree of these JS objects (basically one big JS object) that then gets passed to ReactDOM.render, which produces the actual markup.
+An element is a JS object that describes a piece of UI. The act of composing components instructs React to produce a tree of these JS objects (basically one big JS object) that then gets passed to the `render` method of the React root you create at the application entry point. The call to `render` produces the actual markup.
 
 ### How does JSX know whether to pass a component to createElement or a string?
 This is why the names of React components must start with an upper case letter. It's more than just convention! If a JSX element starts with a lower case letter, the transpiler will take it to be an HTML element and pass it as a string to the first argument of React.createElement. If the JSX element starts upper case then the transpiler knows to look for a component reference to pass in to the function.
