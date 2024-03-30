@@ -38,7 +38,7 @@ const titleDiv = divBuilder(
 ### What is a React element?
 A React element is a JS object that describes a piece of UI. The act of composing components instructs React to produce a tree of these JS objects (basically one big JS object) that then gets passed to the `render` method of the React root you create at the application entry point. The call to `render` produces the actual markup.
 ```javascript
-const reactElementExample = {
+const simplifiedReactElementExample = {
   type: "div",
   props: { className: "greeting" }, // includes children which will be an array of other element objects or text
   ref: null,
