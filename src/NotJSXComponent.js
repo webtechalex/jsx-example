@@ -3,6 +3,6 @@ import React from "react";
 export const NotJSXComponent = () =>
   React.createElement(
     "div",
-    null,
+    { className: "greeting" },
     "Hello, not from JSX!"
   );
