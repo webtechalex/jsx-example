@@ -34,6 +34,7 @@ const titleDiv = divBuilder(
   h1Builder({ className: "title" })
 );
 ```
+Though `React.createFactory` is now deprecated and React advises using `React.createElement` or JSX instead.
 
 ### What is a React element?
 A React element is a JS object that describes a piece of UI. The act of composing components instructs React to produce a tree of these JS objects (basically one big JS object) that then gets passed to the `render` method of the React root you create at the application entry point. The call to `render` produces the actual markup.
