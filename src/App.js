@@ -2,6 +2,7 @@ import { JSXComponent } from "./JSXComponent";
 import { NotJSXComponent } from "./NotJSXComponent";
 import { NotJSXUsingComponent } from "./NotJSXUsingComponent";
 import { NoJSXWithFactories } from "./NoJSXWithFactories";
+import {JSXUsingComponent} from "./JSXUsingComponent";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NotJSXComponent />
       <NotJSXUsingComponent />
       <NoJSXWithFactories />
+      <JSXUsingComponent />
     </div>
   );
 }
